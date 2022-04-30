@@ -14,23 +14,33 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
-                    <h3 class="text-centre"> The Business Standard</h3>
+                    <h3 class="text-centre" style="background: cornsilk"> The Business Standard</h3>
                     <br>
                     {% for n in toi_news %}
-                    <h5> -  {{n}} </h5>
+                    <h5 style="background: cornsilk">  {{n}} </h5>
                     <hr>
                     {% endfor %}
                     <br>
             </div>
-            <div class="col-6">
-                    <h3 class="text-centre">The Daily Star</h3>
+            <div class="col-6" >
+                    <h3 class="text-centre" style="background: beige">The Daily Star</h3>
                     <br>
                     {% for htn in ht_news %}
-                    {{htn}}
+                    <h5 style="background: beige">  {{htn}} </h5>
                     <hr>
                     {% endfor %}
                     <br>
             </div>
+{#            <div class="col-5" >#}
+{#                    <h3 class="text-centre" style="background: beige">The Dhaka Tribue</h3>#}
+{#                    <br>#}
+{#                    {% for dt in dt_news %}#}
+{#                    <h5 style="background: beige">  {{dt}} </h5>#}
+{#                    <hr>#}
+{#                    {% endfor %}#}
+{#                    <br>#}
+{#            </div>#}
+
         </div>
 
 
